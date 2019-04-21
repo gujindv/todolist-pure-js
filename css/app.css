@@ -1,0 +1,12 @@
+.hidden {
+  display: none;
+}
+button {
+  margin-bottom: 20px;
+}
+.list-item {
+  list-style: none;
+}
+.list-item * {
+  margin-right: 10px;
+}

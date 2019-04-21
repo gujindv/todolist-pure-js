@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <h1>ToDo List</h1>
+
+  <div class="pending-list-container">
+    <ul class="pending-list">
+
+    </ul>
+    <div class="add-item-wrapper">
+      <input type="text" class="task-input">
+      <button id="btn-add-task" type="button">ADD</button>
+    </div>
+    <button id="btn-show-finished" type="button">Show Finished</button>
+  </div>
+
+  <div class="finished-list-container hidden">
+    <ul class="finished-list">
+
+    </ul>
+    <button id="btn-return-pending" type="button">Return</button>
+  </div>
+
+  <script src="model/timestamp.js"></script>
+  <script src="model/todoitem.js"></script>
+  <script src="model/todolist.js"></script>
+  <script src="controller/items_controller.js"></script>
+  <script src="controller/lists_controller.js"></script>
+  <script src="app.js"></script>
+  
+</body>
+</html>
